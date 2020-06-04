@@ -5,29 +5,28 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Car insurance</title>
+    <title>Pick a pet</title>
   </head>
   <body>
     <div class="container">
-      <h1>Car insurance</h1>
-
-      <p>To give you a quote, we need to know a little about you:</p>
-
-      <form id="insurance">
-        <label for="age">Age</label>
-        <input id="age" type="text">
-        <label for="gender">Gender</label>
-        <select id="gender">
-          <option value="female">Female</option>
-          <option value="male">Male</option>
+      <h1>Pet Selector</h1>
+      <h3>We will ask a few questions to learn more about you in order to determine which pet would suit your lifestyle best.</h3>
+      <form id="petSelector">
+        <p>Do you have a yard/outdoor space where you reside </p>
+        <select class="form-control" id="yard">
+          <option value="hasYard">Yes</option>
+          <option value="noYard">No</option>
         </select>
-
-        <button type="submit" class="btn">Calculate my quote</button>
+        <p>Do you spend a lot of time outdoors in general?</p>
+        <select class="form-control" id="outdoors">
+          <option value="goesOutdoors">Yes</option>
+          <option value="staysIndoors">No</option>
+        </select>
+        <button type="submit" class='btn'>Pick my pet!</button>
       </form>
-
-      <div id="quote">
-        <p>You will have to pay $<span id="rate"></span> per month to get car insurance. You should probably just bike or take the bus.</p>
-      </div>
     </div>
+
+    
+
   </body>
 </html>

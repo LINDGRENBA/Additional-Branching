@@ -1,13 +1,7 @@
 $(document).ready(function() {
-  $("form#insurance").submit(function(event) {
-    const age = parseInt($("input#age").val());
-    const gender = $("select#gender").val();
-
-    const quote = (100 - age) * 3;
-
-    $("#rate").text(quote);
-    $("#quote").show();
-
-    event.preventDefault();
+  $("form#petSelector").submit(function(event){
+const yardYes = $("yes1").val()
+const yardNo = $("no1").val()
+const 
   });
 });
