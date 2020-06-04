@@ -5,3 +5,12 @@
 #quote {
   display: none;
 }
+
+img {
+  width: 250px;
+  height: auto;
+}
+
+.petOne, .petTwo {
+  display: none;
+}
